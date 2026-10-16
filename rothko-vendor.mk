@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rothko/proprietary/vendor/lib64/libmisoundsa.so:vendor/lib64/libmisoundsa.so \
     vendor/xiaomi/rothko/proprietary/vendor/etc/misound_asc_model.tflite:vendor/etc/misound_asc_model.tflite \
     vendor/xiaomi/rothko/proprietary/vendor/lib64/libspeech_enh_lib.so:vendor/lib64/libspeech_enh_lib.so \
-    vendor/xiaomi/rothko/proprietary/vendor/lib64/libalsautils.so:vendor/lib64/libalsautils-v34.so;FIX_SONAME \
+    vendor/xiaomi/rothko/proprietary/vendor/lib64/libalsautils.so:vendor/lib64/libalsautils-v34.so \
     vendor/xiaomi/rothko/proprietary/vendor/lib64/libaurisysdemo.so:vendor/lib64/libaurisysdemo.so \
     vendor/xiaomi/rothko/proprietary/vendor/lib64/libawinicsmartpaparse.so:vendor/lib64/libawinicsmartpaparse.so \
     vendor/xiaomi/rothko/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:vendor/lib64/libbessound_hd_mtk_vendor.so \
@@ -2356,7 +2356,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rothko/proprietary/vendor/firmware/WIFI_MT6639_PATCH_MCU_dx3_1_hdr.bin:vendor/firmware/WIFI_MT6639_PATCH_MCU_dx3_1_hdr.bin \
     vendor/xiaomi/rothko/proprietary/vendor/firmware/WIFI_RAM_CODE_MT6639_1_1.bin:vendor/firmware/WIFI_RAM_CODE_MT6639_1_1.bin \
     vendor/xiaomi/rothko/proprietary/vendor/firmware/WIFI_RAM_CODE_MT6639_dx3_1.bin:vendor/firmware/WIFI_RAM_CODE_MT6639_dx3_1.bin \
-    vendor/xiaomi/rothko/proprietary/odm/lib64/hw/fingerprint.goodix_fod.so:odm/lib64/hw/fingerprint.goodix_fod.default.so;FIX_SONAME \
+    vendor/xiaomi/rothko/proprietary/odm/lib64/hw/fingerprint.goodix_fod.so:odm/lib64/hw/fingerprint.goodix_fod.default.so \
     vendor/xiaomi/rothko/proprietary/odm/lib64/libgf_hal.so:odm/lib64/libgf_hal.so \
     vendor/xiaomi/rothko/proprietary/vendor/bin/hw/android.hardware.gatekeeper-service.mitee:vendor/bin/hw/android.hardware.gatekeeper-service.mitee \
     vendor/xiaomi/rothko/proprietary/vendor/etc/init/android.hardware.gatekeeper-service.mitee.rc:vendor/etc/init/android.hardware.gatekeeper-service.mitee.rc \
@@ -2707,7 +2707,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rothko/proprietary/vendor/bin/wlan_assistant:vendor/bin/wlan_assistant \
     vendor/xiaomi/rothko/proprietary/vendor/etc/init/init.wlan_drv.rc:vendor/etc/init/init.wlan_drv.rc \
     vendor/xiaomi/rothko/proprietary/vendor/etc/init/wlan_assistant.rc:vendor/etc/init/wlan_assistant.rc \
-    vendor/xiaomi/rothko/proprietary/vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME \
+    vendor/xiaomi/rothko/proprietary/vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so \
     vendor/xiaomi/rothko/proprietary/vendor/bin/hw/android.hardware.nfc-service-tms:vendor/bin/hw/android.hardware.nfc-service-tms \
     vendor/xiaomi/rothko/proprietary/vendor/etc/init/nfc-service-tms.rc:vendor/etc/init/nfc-service-tms.rc \
     vendor/xiaomi/rothko/proprietary/vendor/etc/vintf/manifest/nfc-service-tms.xml:vendor/etc/vintf/manifest/nfc-service-tms.xml \
