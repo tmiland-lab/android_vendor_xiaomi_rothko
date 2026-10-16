@@ -1,0 +1,16 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Xiaomi Soter security framework (prebuilt apk, ships on /product)
+android_app_import {
+    name: "SoterService",
+    apk: "proprietary/product/app/SoterService/SoterService.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+}

@@ -2628,7 +2628,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rothko/proprietary/odm/lib64/libsoter.so:odm/lib64/libsoter.so \
     vendor/xiaomi/rothko/proprietary/odm/bin/soterd:odm/bin/soterd \
     vendor/xiaomi/rothko/proprietary/odm/etc/init/vendor.xiaomi.hardware.soterservice-service.rc:odm/etc/init/vendor.xiaomi.hardware.soterservice-service.rc \
-    vendor/xiaomi/rothko/proprietary/product/app/SoterService/SoterService.apk:product/app/SoterService/SoterService.apk \
     vendor/xiaomi/rothko/proprietary/vendor/bin/hw/tetheroffloadservice:vendor/bin/hw/tetheroffloadservice \
     vendor/xiaomi/rothko/proprietary/vendor/bin/netdagent:vendor/bin/netdagent \
     vendor/xiaomi/rothko/proprietary/vendor/etc/init/android.hardware.tetheroffload-V1-service.rc:vendor/etc/init/android.hardware.tetheroffload-V1-service.rc \
